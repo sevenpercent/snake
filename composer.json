@@ -1,0 +1,20 @@
+{
+	"autoload": {
+		"psr-4": {
+			"SevenPercent\\Snake\\": "src/"
+		}
+	},
+	"repositories": [
+		{
+			"type": "composer",
+			"url": "http://packages.7pc.so/"
+		}
+	],
+	"require": {
+		"symfony/console": "~2.5.3"
+	},
+	"require-dev": {
+		"sevenpercent/phar-compiler": "1.*"
+	}
+}
+

@@ -1,0 +1,11 @@
+#!/usr/bin/env php
+<?php
+
+use SevenPercent\PharCompiler;
+
+require __DIR__ . '/../vendor/autoload.php';
+
+(new PharCompiler())->compile(__DIR__ . '/snake', [
+	__DIR__ . '/../src/',
+	__DIR__ . '/../vendor/',
+]);

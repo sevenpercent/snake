@@ -1,0 +1,8 @@
+#!/usr/bin/env php
+<?php
+
+use SevenPercent\Snake\SnakeApplication;
+
+require __DIR__ . '/../vendor/autoload.php';
+
+(new SnakeApplication())->run();
